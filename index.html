@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reginald - Front-End Developer</title>
+    <link rel="shortcut icon" href="Assets/Me.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#top"><img src="Assets/Logo.png" alt="Logo"></a>
+        </div>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#tech">Tech Stack</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="top" class="hero">
+        <div class="hero-content">
+            <div class="hero-image animate">
+                <img src="Assets/Me.jpg" alt="Reginald">
+            </div>
+            <div class="hero-text">
+                <h1 class="animate">Front-End Developer</h1>
+                <p class="animate">I am Reginald a web application developer with a passion for creating stunning and
+                    responsive web applications</p>
+                <div class="social-links animate">
+                    <a href="https://github.com/SystemDev101"><i class="fab fa-github"></i></a>
+                    <a href="www.linkedin.com/in/motheodev101"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!----Tech Stack----->
+    <section id="tech" class="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="tech-grid">
+            <div class="tech-card animate">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="tech-card animate">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="tech-card animate">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+        </div>
+    </section>
+
+    <!----About Me----->
+    <section id="about" class="about">
+        <div class="about-content animate">
+            <h2>About Me</h2>
+            <p>👋 Hi there! I’m Motheo Mangwale, an enthusiastic front-end developer based in Limpopo, South Africa. With 1 year of
+            hands-on experience in website development, I’m passionate about crafting visually appealing, user-friendly websites using modern technologies
+            like HTML, CSS, JavaScript, and currently leaning the framework React.
+            I thrive on turning creative ideas into functional, responsive designs while ensuring seamless user experiences. My
+            journey in web development is driven by curiosity, continuous learning, and a commitment to writing clean, efficient
+            code.
+            When I’m not coding, you’ll find me exploring new tech trends, contributing to open-source projects, or drawing
+            inspiration from the vibrant digital landscape. Let’s connect and build something amazing together!</p>
+            <button id="downloadResume">Download Resume</button>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="horizontal-scroll-container">
+            <div class="horizontal-scroll-wrapper">
+                <div class="project-card animate">
+                    <!-- Project 1 content -->
+                    <div class="project-card" onclick="window.location.href='project-details.html'">
+                        <h3>PandaWorldClothing Landing PAge – E-commerce App</h3>
+                        <img src="Assets/Project 1.png" alt="Webpage Preview">
+                        <p>A Static Landing Page.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Html</span>
+                            <span class="tech-tag">Css</span>
+                        </div>
+                        <p><strong>Role:</strong> Front-End Developer</p>
+                    </div>
+                </div>
+                <div class="project-card animate">
+                    <!-- Project 2 content -->
+                </div>
+                <!-- Add more project cards -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <div class="horizontal-scroll-container">
+            <div class="horizontal-scroll-wrapper">
+                <div class="cert-card animate">
+                    <!-- Cert 1 content -->
+                </div>
+                <div class="cert-card animate">
+                    <!-- Cert 2 content -->
+                </div>
+                <!-- Add more cert cards -->
+            </div>
+        </div>
+    </section>
+
+    <!---- Services Section ----->
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="service-warning animate">
+            <p><strong>Important Notice:</strong> When choosing a service, never make full payment before work begins or
+                share sensitive credentials upfront. Failure to honor agreed terms will result in project termination, legal
+                action, and blacklisting from future services.</p>
+        </div>
+    
+        <div class="service-options">
+            <div class="service-card animate" id="websiteService">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Website Development</h3>
+                <p>Custom, responsive websites tailored to your business needs</p>
+            </div>
+    
+        </div>
+        </section>
+
+    <!---- Contact Me Section ----->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info animate">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>mangwale05@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+1 (234) 567-8900</span>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <span>+1 (234) 567-8900</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>This Website Portfolio was created by Regiman Trading(pty)LTD</p>
+        <p>&copy; 2025 Regiman Trading. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
