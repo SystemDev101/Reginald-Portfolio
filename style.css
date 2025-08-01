@@ -9,6 +9,41 @@ body {
     font-family: 'Arial', sans-serif;
     background: #f0f0f0;
 }
+.logo a {
+    text-decoration: none;
+    color: #333;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logo a:hover {
+    color: #007bff;
+    font-weight: bolder;
+}
+
+ /*   Classes  */
+ .text-xl {
+    font-size: large;
+ }
+
+ .text-xxl {
+    font-size: 100px;
+ }
+
+ span.large {
+    font-size: 50px;
+    font-weight: bold;
+    color: #001646;
+ }
+
+ /*  Span  */
+span  {
+    color:  #000000;
+}
+
+span.logo {
+    color: #2557fc;
+}
 
 .navbar {
     position: fixed;
@@ -345,6 +380,11 @@ body {
     color: #007bff;
 }
 
+.contact-item a {
+    text-decoration: none;
+    color: blue;
+}
+
 /* Services Section */
 .services {
     padding: 5rem 2rem;
@@ -539,4 +579,19 @@ footer {
     .hero-content h1 {
         font-size: 2.5rem;
     }
+}
+
+/* btns */
+.talk-btn {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.talk-btn:hover {
+    background: #0056b3;
 }
